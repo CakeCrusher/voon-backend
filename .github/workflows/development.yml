@@ -19,9 +19,9 @@ jobs:
       - name: lint
         run: npm run lint
       - name: build
-        run: npm run build &
+        run: npm run build
       - name: run server
-        run: node ./dist/server
+        run: node ./dist/server &
       - name: sleep
         run: sleep 30
       - uses: fjogeleit/http-request-action@master
