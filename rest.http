@@ -1,0 +1,241 @@
+GET http://localhost:3000/liveComments?videoId=hQzlNlHcN0A
+content-type: application/json
+
+# GET https://www.googleapis.com/youtube/v3/commentThreads?key=AIzaSyC-RX8LFSFuWv58InvRBYx2mWTr-FJOr00&textFormat=html&part=snippet,replies&videoId=hQzlNlHcN0A&maxResults=50
+# Accept: application/json
+
+# GET http://localhost:3000/test
+# content-type: application/json
+
+# POST http://localhost:3000/fileSnippet HTTP/1.1
+# content-type: application/json
+
+# {
+#     "videoId": "hQzlNlHcN0A",
+#     "githubURL": "https://github.com/CakeCrusher/restock_emailer",
+#     "fps": 30,
+#     "dimensions": {
+#         "x": 1920,
+#         "y": 1080
+#     },
+#     "payload": [
+#         {
+#             "frame": 0,
+#             "data": [
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 1287,
+#                     "y": 93,
+#                     "width": 73,
+#                     "height": 27
+#                 },
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 1050,
+#                     "y": 137,
+#                     "width": 95,
+#                     "height": 12
+#                 },
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 912,
+#                     "y": 176,
+#                     "width": 95,
+#                     "height": 28
+#                 },
+#                 {
+#                     "file_name": "availability.jsonlines",
+#                     "x": 905,
+#                     "y": 274,
+#                     "width": 111,
+#                     "height": 13
+#                 },
+#                 {
+#                     "file_name": "README.md",
+#                     "x": 905,
+#                     "y": 287,
+#                     "width": 70,
+#                     "height": 27
+#                 },
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 899,
+#                     "y": 305,
+#                     "width": 103,
+#                     "height": 32
+#                 },
+#                 {
+#                     "file_name": "send_email.py",
+#                     "x": 905,
+#                     "y": 362,
+#                     "width": 79,
+#                     "height": 13
+#                 },
+#                 {
+#                     "file_name": "availability.jsonlines",
+#                     "x": 1442,
+#                     "y": 564,
+#                     "width": 166,
+#                     "height": 12
+#                 }
+#             ]
+#         },
+#         {
+#             "frame": 100,
+#             "data": [
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 1301,
+#                     "y": 169,
+#                     "width": 91,
+#                     "height": 26
+#                 },
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 1066,
+#                     "y": 200,
+#                     "width": 99,
+#                     "height": 30
+#                 },
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 1070,
+#                     "y": 228,
+#                     "width": 100,
+#                     "height": 30
+#                 },
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 926,
+#                     "y": 250,
+#                     "width": 101,
+#                     "height": 30
+#                 },
+#                 {
+#                     "file_name": "availability.jsonlines",
+#                     "x": 923,
+#                     "y": 348,
+#                     "width": 112,
+#                     "height": 13
+#                 },
+#                 {
+#                     "file_name": "README.md",
+#                     "x": 924,
+#                     "y": 360,
+#                     "width": 70,
+#                     "height": 30
+#                 },
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 916,
+#                     "y": 384,
+#                     "width": 105,
+#                     "height": 25
+#                 },
+#                 {
+#                     "file_name": "send_email.py",
+#                     "x": 923,
+#                     "y": 427,
+#                     "width": 66,
+#                     "height": 29
+#                 },
+#                 {
+#                     "file_name": "restock_checker/spiders/stock_status.py",
+#                     "x": 1322,
+#                     "y": 638,
+#                     "width": 90,
+#                     "height": 13
+#                 },
+#                 {
+#                     "file_name": "availability.jsonlines",
+#                     "x": 1445,
+#                     "y": 638,
+#                     "width": 182,
+#                     "height": 13
+#                 }
+#             ]
+#         },
+#         {
+#             "frame": 200,
+#             "data": [
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 931,
+#                     "y": 261,
+#                     "width": 96,
+#                     "height": 12
+#                 },
+#                 {
+#                     "file_name": "availability.jsonlines",
+#                     "x": 915,
+#                     "y": 339,
+#                     "width": 120,
+#                     "height": 29
+#                 },
+#                 {
+#                     "file_name": "README.md",
+#                     "x": 924,
+#                     "y": 370,
+#                     "width": 70,
+#                     "height": 10
+#                 },
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 923,
+#                     "y": 380,
+#                     "width": 82,
+#                     "height": 29
+#                 },
+#                 {
+#                     "file_name": "scrapy.cfg",
+#                     "x": 924,
+#                     "y": 414,
+#                     "width": 56,
+#                     "height": 13
+#                 },
+#                 {
+#                     "file_name": "send_email.py",
+#                     "x": 923,
+#                     "y": 436,
+#                     "width": 81,
+#                     "height": 13
+#                 },
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 1069,
+#                     "y": 211,
+#                     "width": 96,
+#                     "height": 12
+#                 },
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 1301,
+#                     "y": 167,
+#                     "width": 80,
+#                     "height": 30
+#                 },
+#                 {
+#                     "file_name": "scrape_trigger.py",
+#                     "x": 1070,
+#                     "y": 228,
+#                     "width": 103,
+#                     "height": 30
+#                 },
+#                 {
+#                     "file_name": "restock_checker/spiders/stock_status.py",
+#                     "x": 1322,
+#                     "y": 639,
+#                     "width": 90,
+#                     "height": 12
+#                 },
+#                 {
+#                     "file_name": "availability.jsonlines",
+#                     "x": 1445,
+#                     "y": 638,
+#                     "width": 182,
+#                     "height": 13
+#                 }
+#             ]
+#         }
+#     ]
+# }
