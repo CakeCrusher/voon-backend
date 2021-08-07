@@ -30,4 +30,4 @@ jobs:
           url: 'http://localhost:3000/test'
           method: 'GET'
       - name: response
-        run: echo ${{ steps.test_OCR.outputs.response }}
+        run: echo ${{ steps.test_callToServer.outputs.response }}
