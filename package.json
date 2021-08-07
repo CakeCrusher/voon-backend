@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon",
+    "build": "tsc",
     "lint": "eslint --fix --no-error-on-unmatched-pattern -c ./.eslintrc.js \"**/*.ts*\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
