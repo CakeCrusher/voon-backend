@@ -1,4 +1,7 @@
-GET http://localhost:3000/liveComments?videoId=hQzlNlHcN0A
+# GET http://localhost:3000/liveComments?videoId=hQzlNlHcN0A
+# content-type: application/json
+
+GET https://voon-backend.herokuapp.com/test
 content-type: application/json
 
 # GET https://www.googleapis.com/youtube/v3/commentThreads?key=AIzaSyC-RX8LFSFuWv58InvRBYx2mWTr-FJOr00&textFormat=html&part=snippet,replies&videoId=hQzlNlHcN0A&maxResults=50

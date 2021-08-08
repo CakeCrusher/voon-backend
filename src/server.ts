@@ -8,7 +8,7 @@ import fileSnippetRoute from "./routes/fileSnippet";
 import liveCommentRoute from "./routes/liveComment";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(bodyParser.json());
