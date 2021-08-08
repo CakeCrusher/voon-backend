@@ -4,8 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon",
+    "start": "node ./dist/server",
+    "start-dev": "nodemon",
     "build": "tsc",
+    "build-dev": "tsc",
     "lint": "eslint --fix --no-error-on-unmatched-pattern -c ./.eslintrc.js \"**/*.ts*\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
