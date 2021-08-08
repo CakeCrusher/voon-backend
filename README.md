@@ -2,7 +2,7 @@
 
 ## Getting Started with Extension client
 
-1. run `npm install && npm start`
+1. run `npm install && npm start-dev`
 
 2. send the following request to make sure the server is running:
 ```text
